@@ -8,9 +8,10 @@ body{
 }
 
 .titulo_sessao{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
     text-align: left;
     padding: 30px;
+    font-weight: normal;
 }
 
 
@@ -73,7 +74,7 @@ body{
 
     #container_banner{
 
-        height: 800px;
+        height: 610px;
         text-align: center;
         margin: auto;
         
@@ -81,9 +82,13 @@ body{
 
     #container_banner_item{
 
-        height: 800px;
-        background-image: url(./images/imagem1.jpg);
+        height: 610px;
+        background-image: url(./images/imagem3.jpg);
+        background-attachment: fixed;
         background-size: cover;
+        
+        
+
     }
 
     #container_menu{
@@ -145,8 +150,8 @@ body{
         max-width: 1200px;
         text-align: center;
         margin: auto;
-        margin-top: 30px;
-        padding: 30px;
+        margin-top: 15px;
+        padding: 15px;
 }
 
 #texto1{
@@ -187,17 +192,126 @@ body{
 
 
 
+#container_sessao_produtos{
+    background-color: #3f3f3f;
 
+}
 
 
 #container_produtos{
-    height: 220px;
+    height: 400px;
     max-width: 1200px;
     text-align: center;
     margin: auto;
+    padding: 10px;
+    display: flex;
+    
 
 
 }
+
+
+#container_produtos_img{
+    width: 290px;
+    height: 350px;
+    display: flex;
+    flex-flow: wrap;
+
+}
+
+
+#quadro_produtos{
+    width: 120px;
+    height: 160px;
+    display: flex;
+    background-color: red;
+    border-radius: 10px;
+    font-family: calibri;
+    font-weight: normal;
+    font-size: 10px;
+    padding: 10px;
+    margin-right: 10px;
+    color: white;
+    justify-content: flex-end;
+    align-items:flex-end;
+
+}
+
+#quadro_produtos2{
+    width: 120px;
+    height: 160px;
+    background-image: url(./images/medicamentos.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    font-family: calibri;
+    font-weight: normal;
+    font-size: 10px;
+    text-align: right;
+    vertical-align: bottom;
+    padding: 10px;
+
+}
+
+#quadro_produtos3{
+    width: 290px;
+    height: 90px;
+    background-image: url(./images/ferramentas.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    font-family: calibri;
+    font-weight: normal;
+    font-size: 10px;
+    text-align: right;
+    vertical-align: bottom;
+    padding: 10px;
+    margin-top: -42px;
+
+}
+
+#quadro_produtos4{
+    width: 850px;
+    height: 350px;
+    border-radius: 10px;
+    font-family: calibri;
+    font-weight: normal;
+    font-size: 10px;
+    padding: 30px;
+    color: rgb(20, 20, 20);
+}
+
+.titulo_produtos{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+}
+
+.texto_produtos{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .container_produtos_item{
     width: 200px;
@@ -207,6 +321,7 @@ body{
     border-radius: 0%;
     border-style: solid;
     border-color: rgb(61, 61, 61);
+   
     
 }
 
@@ -241,7 +356,7 @@ body{
 }
 
 .texto_produto{
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     position: relative;
     top: 50%;
@@ -272,3 +387,5 @@ body{
     margin-top: 150px;
 
 }
+
+
